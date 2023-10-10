@@ -6,29 +6,54 @@
     <link rel="stylesheet" href="output.css">
     <title>Document</title>
 </head>
-<body class="bg-blue-600">
+<body class="w-full font-sans font-medium overflow-x-hidden">
                    <!-- <h1>header</h1> -->
-    <header>
-        <nav>
-            <div>
-                <img src="" alt="">
+    <header class="justify-center align-middle flex flex-row bg-white  fixed w-full top-0 p-5">
+        <nav class="w-full flex border-b-[1px] border-black pb-5 flex-row justify-between">
+            <div class="flex cursor-pointer flex-row w-28 h-14 self-center">
+                <img src="./images/logo.png" alt="logo">
             </div>
-            <div>
-                <select name="" id="">
-                    <option class="text-3xl text-red-500" value="">fsf</option>
-                    <option value="">sdfdsf</option>
+            <div class="flex w-[27%] justify-between flex-row">
+                <select class="outline-none hover:shadow w-[27%] border-none" name="product" id="">
+                    <option disabled selected  hidden value="product1">PRODUCTS</option>
+                    <option value="product1">SCOOTER</option>
+                    <option value="product2">BIKE TOOL</option>
                 </select>
-                <div>
-                    <a href="#"></a>
-                    <a href="#"></a>
+                <div class="justify-between p-1 w-[55%] flex flex-row">
+                    <a class="pr-2 hover:shadow self-center" href="#">GALLERY</a>
+                    <a class="pl-2 hover:shadow self-center" href="#">CONTACT</a>
                 </div>
             </div>
-            <div>
-                <a href=""></a>
-                <button></button>
+            <div class="w-[15%] justify-between text-center flex flex-row p-2">
+                <a class="text-center hover:shadow self-center" href="#">LOG IN</a>
+                <button class="rounded-md hover:font-bold hover:bg-[#4b4b4b] bg-black text-white pt-[10px] pb-[10px] pr-[20px] pl-[20px]">SIGN UP</button>
             </div>
         </nav>
     </header>
 
+                                <!-- <h1>fratures section start</h1> -->
+    <section class="mt-[130px] justify-center flex flex-row border-2 border-green-400 w-full">
+        <div class="border-2 border-green-400 flex flex-col w-[70%]">
+            <div class="flex flex-col p-3">
+                <h1 class="text-7xl font-normal">LET'S RIDE</h1>
+                <span class="text-8xl border-b-4 border-black">THE FUTURE.</span>
+            </div>
+            <p>Simple and sleek design with users <br> in mind.</p>
+            <div class="flex flex-row justify-center content-center">
+                <h1>&#129030;</h1>
+                <h1>Buy now</h1>
+                <p>Watch our <br> video how <br> it works</p>
+                <img src="./images/header play button.png" alt="logo">
+            </div>
+        </div>
+        <div class="flex flex-col w-[100%] border-2 border-violet-600">
+            <img src="./images/header image.png" alt="logo">
+            <div class="flex flex-row border-2 border-yellow-600 justify-start">
+                <img src="./images/01.png" alt="logo">
+                <button>&lt;</button>
+                <button>&gt;</button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

@@ -10,24 +10,24 @@
 
                    <!-- <h1>header</h1> -->
 
-    <header class="justify-center align-middle flex flex-row bg-white  fixed w-full top-0 p-5">
+    <header class="justify-center z-40 align-middle flex flex-row bg-white  fixed w-full top-0 p-5">
         <nav class="w-full flex border-b-[1px] border-black pb-5 flex-row justify-between">
             <div class="flex cursor-pointer flex-row w-28 h-14 self-center">
                 <img src="./images/logo.png" alt="logo">
             </div>
             <div class="flex w-[27%] justify-between flex-row">
-                <select class="outline-none hover:shadow w-[27%] border-none" name="product" id="">
+                <select class="outline-none hover:shadow-md w-[27%] border-none" name="product" id="">
                     <option disabled selected  hidden value="product1">PRODUCTS</option>
                     <option value="product1">SCOOTER</option>
                     <option value="product2">BIKE TOOL</option>
                 </select>
                 <div class="justify-between p-1 w-[55%] flex flex-row">
-                    <a class="pr-2 hover:shadow self-center" href="#">GALLERY</a>
-                    <a class="pl-2 hover:shadow self-center" href="#">CONTACT</a>
+                    <a class="pr-2 hover:shadow-md self-center" href="#">GALLERY</a>
+                    <a class="pl-2 hover:shadow-md self-center" href="#">CONTACT</a>
                 </div>
             </div>
             <div class="w-[15%] justify-between text-center flex flex-row p-2">
-                <a class="text-center hover:shadow self-center" href="#">LOG IN</a>
+                <a class="text-center hover:shadow-md self-center" href="#">LOG IN</a>
                 <button class="rounded-md hover:font-bold hover:bg-[#4b4b4b] bg-black text-white pt-[10px] pb-[10px] pr-[20px] pl-[20px]">SIGN UP</button>
             </div>
         </nav>
@@ -212,14 +212,35 @@
             </div>
             <button class="text-4xl p-[20px] pl-[40px] text-[#626262] pr-[40px] border-2 border-black rounded-lg font-bold cursor-pointer hover:font-bold hover:scale-[1.05] transition-all duration-[0.6s] hover:text-[#000000]">More Accessories Coming Soon</button>
     </section>
-
-
-    <section>
-        <div class="justify-center flex flex-col text-center mb-[90px]">
+                                        <!-- <h1>Gallery</h1> -->
+                                      
+    <section class="justify-center flex flex-col text-center mb-[10px]">
+        <div class="justify-center flex flex-col text-center mb-[10px]">
             <h1 class="text-5xl pb-[40px]">Gallery</h1>
             <p class="text-[20px] text-[#555454]">View gallery of our products and make yourself satisfied with our creation.</p>
         </div>
-        <div></div>
+        <div class="grid grid-cols-2 w-full justify-center content-center items-center">
+            <div class="p-[20px]  hover:scale-[1.02] cursor-pointer transition-all duration-[0.5s] w-full mt-[200px] ml-[30px]">
+                <h1 class="font-sans font-bold text-left pl-[20px] -bottom-[70px] relative text-3xl">Scooter</h1>
+                <img class="w-[90%]" src="./images/gallery scooter.png" alt="image">
+            </div>
+            <div class="p-[20px]  hover:scale-[1.02] cursor-pointer transition-all duration-[0.5s] relative bottom-[80px] w-full ml-[30px]">
+                <h1 class=" font-sans font-bold text-left pl-[20px] -bottom-[70px] relative text-3xl">Built Quality</h1>
+                <img class="w-[90%]" src="./images/gallery built quality.png" alt="image">
+            </div>
+            <div class="p-[20px] ml-[20px] w-full flex flex-col items-start content-start justify-start relative bottom-[75px]">
+                <button class="border-2 border-black m-2 mb-[25px] w-[80%] content-center hover:scale-105 font-sans font-bold text-4xl p-[25px] rounded-lg
+                transition-all duration-[0.6s]">Battery Images</button>
+                <button class="border-2 border-black m-2 mb-[25px] w-[80%] content-center hover:scale-105 font-sans font-bold text-4xl p-[25px] rounded-lg
+                transition-all duration-[0.6s]">Spare Parts Images</button>
+                <button class="border-2 border-black m-2 mb-[25px] w-[80%] content-center hover:scale-105 font-sans font-bold text-4xl p-[25px] rounded-lg
+                transition-all duration-[0.6s]">Charging Cable Images</button>
+            </div>
+            <div class="p-[20px]  hover:scale-[1.02] cursor-pointer transition-all duration-[0.5s] bottom-[165px] relative h-full w-full ml-[30px]">
+                <h1 class=" font-sans font-bold text-left pl-[20px] -bottom-[70px] relative text-3xl">Parts</h1>
+                <img class="w-[90%]" src="./images/gallery parts.png" alt="image">
+            </div>
+        </div>
     </section>
 </body>
 </html>

@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily:{
         'good':["Readex Pro", "serif"],
+        'Ram':["DM Sans", "serif"],
       }
     },
   },

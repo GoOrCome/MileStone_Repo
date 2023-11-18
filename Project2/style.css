@@ -361,8 +361,9 @@ input ,select{
     cursor: default;
 }
 .Doctor_All div p:hover{
-    transition: all 0.3s ease-in-out;
     color: #555353;
+    transition: all 1s;
+    cursor: pointer;
     font-family: sans-serif;
 }
 .rateing{

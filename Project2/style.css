@@ -362,7 +362,6 @@ input ,select{
 }
 .Doctor_All div p:hover{
     color: #555353;
-    transition: all 1s;
     cursor: pointer;
     font-family: sans-serif;
 }
